@@ -1,10 +1,3 @@
-class Student 
-  
-require_relative "./user.rb"
-
-end 
-
-
 class Student < User
 
 def initialize
@@ -18,6 +11,5 @@ end
 def knowledge
   @knowledge
 end
-
 
 end
